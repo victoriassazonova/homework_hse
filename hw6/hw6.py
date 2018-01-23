@@ -8,8 +8,8 @@ def noun2():
     return random.choice([line for line in open('noun2.txt', 'r', encoding='utf-8')])[:-1]
 
 def adv():
-    b=random.randint(0, 1)
-    if b==1:
+    b = random.randint(0, 1)
+    if b == 1:
         return random.choice([line for line in open('adv.txt', 'r', encoding='utf-8')])[:-1] +' '
     else:
         return ''
